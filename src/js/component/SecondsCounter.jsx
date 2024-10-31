@@ -7,7 +7,7 @@ const SecondsCounter = ({seconds}) => {
                 <div className="col text-center">
                 <i className="fa-regular fa-clock"></i>     
                 </div>
-                <div className="col text-center">{Math.floor(seconds / 100000) % 10}</div>
+                <div className="col card bg-dark text-center">{Math.floor(seconds / 100000) % 10}</div>
                 <div className="col text-center">{Math.floor(seconds / 10000) % 10}</div>
                 <div className="col text-center">{Math.floor(seconds / 1000) % 10}</div>
                 <div className="col text-center">{Math.floor(seconds / 100) % 10}</div>
