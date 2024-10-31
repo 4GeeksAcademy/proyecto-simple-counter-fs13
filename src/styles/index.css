@@ -10,3 +10,8 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.col {
+    font-size: 90px;
+    margin: 15px;
+    
+}
